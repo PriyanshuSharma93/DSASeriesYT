@@ -87,7 +87,7 @@ public class ArraysProblems {
         }
         return -1;
     }
-
+// swap alternate elements in an array
 
 
 
