@@ -1,23 +1,24 @@
-package Basicsofjava.LeetCodeProblems;
+package LeetcodeProblems;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SumofEachRowin2dArray {
+public class SumofEachColin2dArray {
 
-    public List<Integer> rowSum(int[][] arr) {
+    public List<Integer> colSum(int[][] arr) {
 
         List<Integer> result = new ArrayList<>();
 
         int m = arr.length;
         int n = arr[0].length;
 
-        for (int row = 0; row < m; row++) {
+        for (int col= 0; col < m; col++) {
 
             int sum = 0;
 
-            for (int col = 0; col < n; col++) {
-                sum += arr[row][col];
+            for (int row = 0; row < n; row++) {
+//                int value = arr[row][col];
+                sum =sum+arr[row][col];
             }
 
             result.add(sum);
@@ -34,9 +35,9 @@ public class SumofEachRowin2dArray {
                 {7, 8, 9}
         };
 
-        SumofEachRowin2dArray obj = new SumofEachRowin2dArray();
+        SumofEachColin2dArray obj = new SumofEachColin2dArray();
 
-        List<Integer> ans = obj.rowSum(arr);
+        List<Integer> ans = obj.colSum(arr);
 
         System.out.println(ans);
     }

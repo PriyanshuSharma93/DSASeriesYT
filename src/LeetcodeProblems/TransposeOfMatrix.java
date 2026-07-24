@@ -1,6 +1,4 @@
-package Basicsofjava.LeetCodeProblems;
-
-import java.util.List;
+package LeetcodeProblems;
 
 public class TransposeOfMatrix {
     public int[][] transpose(int[][] arr) {

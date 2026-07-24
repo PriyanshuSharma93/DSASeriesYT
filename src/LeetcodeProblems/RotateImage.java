@@ -1,4 +1,4 @@
-package Basicsofjava.LeetCodeProblems;
+package LeetcodeProblems;
 
 public class RotateImage {
 
