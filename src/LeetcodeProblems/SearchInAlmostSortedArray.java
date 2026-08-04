@@ -2,7 +2,7 @@ package LeetcodeProblems;
 
 
 
-public class SearchInAlmostSortedArray {
+public class SearchInAlmostSortedArray{
     public static int findElementNearlysortedArray(int [] arr, int k){
         int n=arr.length;
 
