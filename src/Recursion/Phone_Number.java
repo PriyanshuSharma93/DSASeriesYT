@@ -23,7 +23,7 @@
             List<String> result = new ArrayList<>();
             int index=0;
             StringBuilder output=new StringBuilder();
-            solve(digits,index,mapping,result,output);
+            solve(digits,index,mapping,result,output);  
             return result;
         }
         public static void main(String[] args){
